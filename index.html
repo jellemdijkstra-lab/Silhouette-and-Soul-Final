@@ -97,39 +97,26 @@
 <main class="mt-[56px]">
 
   <!-- ====== HERO ====== -->
-  <section class="bg-brand-offwhite py-16 px-6">
-    <div class="max-w-[900px] mx-auto text-center">
-      <span class="block text-[9px] text-[#777777] font-medium tracking-[0.22em] uppercase mb-4">Private Fine Art Studio · West Kelowna, BC</span>
-      <h1 class="text-[clamp(28px,5vw,44px)] text-brand-charcoal leading-[1.2] mb-6 max-w-[600px] mx-auto font-normal">
-        You already have everything it takes to feel stunning. Let me help you see it.
+  <!-- IMAGE: hero-background — replace the URL in style="background-image: url('...')" below -->
+  <section class="relative w-full min-h-[90vh] md:min-h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat"
+           style="background-image: url('REPLACE_WITH_HERO_BACKGROUND_IMAGE_URL')">
+    <!-- Dark overlay so text stays readable over any photo -->
+    <div class="absolute inset-0 bg-black/40"></div>
+
+    <!-- Content -->
+    <div class="relative z-10 max-w-[700px] mx-auto text-center px-6 py-24">
+      <span class="block text-[9px] text-white/70 font-medium tracking-[0.22em] uppercase mb-6">Private Fine Art Studio · West Kelowna, BC</span>
+      <h1 class="text-[clamp(32px,5vw,56px)] text-white leading-[1.15] mb-6 font-normal">
+        You already have everything it takes to feel stunning. <em>Let me help you see it.</em>
       </h1>
-      <p class="text-[13px] text-[#444444] leading-[1.7] mb-8 max-w-[500px] mx-auto">
+      <p class="text-[13px] text-white/80 leading-[1.8] mb-10 max-w-[480px] mx-auto">
         Private maternity, boudoir, and fine art portrait sessions — intimately guided, artfully lit, and designed entirely around you.
       </p>
       <!-- SCHEDULE YOUR CONSULTATION → smooth scroll to contact -->
-      <a href="#contact" class="inline-block hairline border-brand-charcoal text-[10px] tracking-[0.16em] text-brand-charcoal px-8 py-3 rounded-[2px] hover:bg-brand-charcoal hover:text-white transition-all mb-2">
+      <a href="#contact" class="inline-block hairline border-white text-[10px] tracking-[0.16em] text-white px-10 py-4 rounded-[2px] hover:bg-white hover:text-brand-charcoal transition-all mb-3">
         SCHEDULE YOUR COMPLIMENTARY CONSULTATION
       </a>
-      <span class="block text-[9px] text-[#777777] mb-12">No commitment · Just a conversation</span>
-
-      <!-- Hero image row — 3 images -->
-      <div class="grid grid-cols-12 gap-2 h-[260px] md:h-[400px]">
-        <!-- IMAGE: hero-left — replace src URL below -->
-        <div class="col-span-3 h-full overflow-hidden rounded-[3px]">
-          <img src="https://res.cloudinary.com/dgfkvj1pg/image/upload/v1775578320/E34A9641_kin5bk.jpg"
-               alt="Maternity portrait" class="w-full h-full object-cover"/>
-        </div>
-        <!-- IMAGE: hero-center — replace src URL below -->
-        <div class="col-span-6 h-full overflow-hidden rounded-[3px]">
-          <img src="https://res.cloudinary.com/dgfkvj1pg/image/upload/v1775578308/E34A0321-Edit_fg5ei7.jpg"
-               alt="Fine art portrait" class="w-full h-full object-cover"/>
-        </div>
-        <!-- IMAGE: hero-right — replace src URL below -->
-        <div class="col-span-3 h-full overflow-hidden rounded-[3px]">
-          <img src="https://res.cloudinary.com/dgfkvj1pg/image/upload/v1775578313/E34A8710_tuynyo.jpg"
-               alt="Boudoir portrait" class="w-full h-full object-cover"/>
-        </div>
-      </div>
+      <span class="block text-[9px] text-white/50">No commitment · Just a conversation</span>
     </div>
   </section>
 
@@ -142,7 +129,7 @@
       <div class="hidden md:block h-4 w-[0.5px] bg-stone-600"></div>
       <span class="text-[9px] text-white tracking-[0.2em]">WEST KELOWNA, BC</span>
       <div class="hidden md:block h-4 w-[0.5px] bg-stone-600"></div>
-      <span class="text-[9px] text-white tracking-[0.2em]">250 215-3530</span>
+      <span class="text-[9px] text-white tracking-[0.2em]">250-215-3530</span>
     </div>
   </section>
 
