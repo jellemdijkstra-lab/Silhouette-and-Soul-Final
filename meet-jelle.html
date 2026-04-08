@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meet Jelle | Silhouette &amp; Soul</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            "brand-charcoal": "#1A1A1A",
+            "brand-cognac":   "#8B6B4E",
+            "brand-sand":     "#C4A882",
+            "brand-cream":    "#F7F0E8",
+            "brand-offwhite": "#F5F5F2",
+            "brand-border":   "#E8E4DF"
+          },
+          fontFamily: {
+            headline: ["Cormorant Garamond", "serif"],
+            body:     ["Jost", "sans-serif"]
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { font-family: 'Jost', sans-serif; -webkit-font-smoothing: antialiased; }
+    h1, h2, h3, h4 { font-family: 'Cormorant Garamond', serif; }
+    .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24; }
+    .hairline   { border-width: 0.5px; }
+    .hairline-b { border-bottom-width: 0.5px; }
+    .hairline-t { border-top-width: 0.5px; }
+    #mobile-menu { display: none; }
+    #mobile-menu.open { display: flex; }
+  </style>
+</head>
+<body class="bg-white text-brand-charcoal overflow-x-hidden">
+
+<!-- ====== NAV ====== -->
+<nav class="fixed top-0 w-full h-[56px] z-50 bg-white/95 backdrop-blur-sm hairline-b border-stone-200">
+  <div class="flex justify-between items-center w-full px-6 md:px-8 max-w-[1440px] mx-auto h-full">
+    <a href="index.html" class="text-sm font-light tracking-widest text-stone-900 leading-tight">SILHOUETTE &amp; SOUL</a>
+    <div class="hidden md:flex items-center space-x-7">
+      <a href="index.html#experience"      class="text-[10px] font-medium tracking-[0.16em] uppercase text-stone-500 hover:text-stone-900 transition-colors">THE EXPERIENCE</a>
+      <a href="maternity-gallery.html"     class="text-[10px] font-medium tracking-[0.16em] uppercase text-stone-500 hover:text-stone-900 transition-colors">MATERNITY</a>
+      <a href="boudoir-gallery.html"       class="text-[10px] font-medium tracking-[0.16em] uppercase text-stone-500 hover:text-stone-900 transition-colors">BOUDOIR</a>
+      <a href="fine-art-gallery.html"      class="text-[10px] font-medium tracking-[0.16em] uppercase text-stone-500 hover:text-stone-900 transition-colors">FINE ART</a>
+      <a href="meet-jelle.html"            class="text-[10px] font-medium tracking-[0.16em] uppercase text-stone-900 border-b border-stone-900 pb-1">ABOUT</a>
+      <a href="investment.html"            class="text-[10px] font-medium tracking-[0.16em] uppercase text-stone-500 hover:text-stone-900 transition-colors">PRICING</a>
+    </div>
+    <div class="flex items-center space-x-4">
+      <span class="hidden md:block text-[10px] tracking-widest text-stone-900">250-215-3530</span>
+      <a href="index.html#contact" class="text-[10px] tracking-[0.16em] bg-brand-charcoal text-white px-4 py-2 rounded-[2px] hover:opacity-80 transition-opacity">BOOK YOUR SESSION</a>
+      <button id="menu-toggle" class="md:hidden flex flex-col justify-center items-center w-8 h-8 space-y-1" aria-label="Open menu">
+        <span class="block w-5 h-[0.5px] bg-stone-900"></span>
+        <span class="block w-5 h-[0.5px] bg-stone-900"></span>
+        <span class="block w-5 h-[0.5px] bg-stone-900"></span>
+      </button>
+    </div>
+  </div>
+  <div id="mobile-menu" class="flex-col bg-white hairline-b border-stone-200 px-6 pb-6 pt-4 space-y-4 absolute w-full top-[56px] left-0 z-40">
+    <a href="index.html#experience"  class="block text-[11px] tracking-[0.16em] uppercase text-stone-600">THE EXPERIENCE</a>
+    <a href="maternity-gallery.html" class="block text-[11px] tracking-[0.16em] uppercase text-stone-600">MATERNITY</a>
+    <a href="boudoir-gallery.html"   class="block text-[11px] tracking-[0.16em] uppercase text-stone-600">BOUDOIR</a>
+    <a href="fine-art-gallery.html"  class="block text-[11px] tracking-[0.16em] uppercase text-stone-600">FINE ART</a>
+    <a href="meet-jelle.html"        class="block text-[11px] tracking-[0.16em] uppercase text-stone-900 font-medium">ABOUT JELLE</a>
+    <a href="investment.html"        class="block text-[11px] tracking-[0.16em] uppercase text-stone-600">PRICING</a>
+  </div>
+</nav>
+
+<main class="mt-[56px]">
+
+  <!-- ====== HERO ====== -->
+  <section class="bg-brand-offwhite pt-20 pb-16 px-6 text-center">
+    <span class="block text-[9px] text-[#777777] font-medium uppercase tracking-[0.22em] mb-4">ABOUT JELLE</span>
+    <h1 class="text-[clamp(28px,5vw,48px)] text-brand-charcoal font-normal leading-tight">The Artist Behind the Lens</h1>
+  </section>
+
+  <!-- ====== PERSONAL STORY ====== -->
+  <section class="py-20 px-6">
+    <div class="max-w-[1000px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+      <!-- IMAGE: jelle-portrait — replace src URL below -->
+      <div class="aspect-[4/5] overflow-hidden bg-brand-offwhite rounded-[3px]">
+        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCCzykwJ57Iyar4YL6eqdeRzv_FYzD_FohZ6L0_hKf_X9WEIYAkIf898d69yyijTNF18t7KLMUqx0QfsUh-Xk-N7GpAXhpy6K-rRDccWdM2cvv1v0OZl3_bvVB2lKJZqBo27VflOvo5kBs1yclcrcZfdAx450r6Xo5pQfvKaQm_0U1x52SJKu9OQhnBcBnOnw6bdfllMcROXBpDDPSQXf-TAEl6_3Tb15CEb3del6GUzntqnHxx7kYcnOFKGH1AsZz40dyDTVBQtgbV"
+             alt="Portrait of Jelle Dijkstra" class="w-full h-full object-cover"/>
+      </div>
+      <div class="flex flex-col justify-center">
+        <h2 class="text-[22px] font-headline italic text-brand-charcoal mb-8 leading-snug">
+          "I believe every woman deserves to experience herself the way the people who love her most already see her."
+        </h2>
+        <div class="text-[13px] text-[#444444] leading-[1.7] space-y-5">
+          <p>I created Silhouette and Soul because I believe every woman deserves to experience herself the way the people who love her most already see her — radiant, powerful, and completely herself.</p>
+          <p>My private studio in West Kelowna is a space where you can arrive as you are and leave with photographs you will return to for the rest of your life. Every session is a collaborative journey, stripping away the noise of daily life to focus on the quiet power of your unique silhouette.</p>
+          <p>Through years of mastering fine art techniques and light manipulation, I've dedicated my craft to creating a sanctuary where vulnerability meets strength. This isn't just about taking pictures; it's about seeing you.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== PHILOSOPHY QUOTE ====== -->
+  <section class="bg-brand-offwhite py-28 px-8">
+    <div class="max-w-3xl mx-auto text-center">
+      <span class="material-symbols-outlined text-brand-cognac mb-6 block text-[32px]">format_quote</span>
+      <p class="text-[clamp(20px,3vw,28px)] font-headline italic text-brand-charcoal leading-relaxed mb-8">
+        Photography is the art of observation. It has little to do with the things you see and everything to do with the way you see them.
+      </p>
+      <cite class="text-[10px] uppercase tracking-widest font-medium text-[#777777] not-italic">— Jelle Dijkstra</cite>
+    </div>
+  </section>
+
+  <!-- ====== BEHIND THE PROCESS ====== -->
+  <section class="bg-brand-offwhite py-20 px-6">
+    <div class="max-w-[1000px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20 items-center">
+      <!-- IMAGE: studio-process — replace src URL below -->
+      <div class="lg:col-span-7 aspect-[16/10] overflow-hidden bg-brand-border rounded-[3px]">
+        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7c0mwF-LeYeej3rZn-aKJCNyulomD-lzfMlUu4lewS3NYf08tRvVjMR1zc0zRE7u0NjVbfBBes8AAi6cI7Ah_iyIb2-wDQbAyeBVka5vN-P-eZcoqExG1gO087eF3BxQF2H6gpPvQuDAXhkrB2UzeYSjjD6htS8kNa0MCI6Q71MjpAFJAHtxj8q8Qac-rgNs57pxrK2ZhA_Tqo9o9HRgZIALK6_7WHBlhcJOlwTw3HfCkF32bGKDQkdA_zdpPRArYJp7CAvrLt_z4"
+             alt="Studio detail" class="w-full h-full object-cover grayscale opacity-90"/>
+      </div>
+      <div class="lg:col-span-5">
+        <span class="text-[9px] text-brand-sand font-medium uppercase tracking-[0.2em] mb-4 block">THE STUDIO</span>
+        <h2 class="text-[32px] font-headline font-normal mb-8 text-brand-charcoal">Behind the Process</h2>
+        <div class="space-y-5 text-[13px] text-[#444444] leading-[1.8]">
+          <p>Excellence is found in the unseen details. Every portrait produced in this studio is treated as a piece of archival history, crafted with an unwavering commitment to longevity and tactile beauty.</p>
+          <p>We choose only the finest museum-grade papers and custom-built lighting environments to ensure that the depth of your soul is translated perfectly onto the final medium. It is an intentional, slow process designed to honor the significance of your journey.</p>
+          <div class="pt-4">
+            <div class="h-[1px] w-12 bg-brand-cognac mb-6"></div>
+            <p class="italic font-headline text-base text-brand-charcoal">"The print is the final breath of the image."</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== CTA ====== -->
+  <section class="hairline-t border-brand-border py-28 px-8">
+    <div class="max-w-2xl mx-auto text-center">
+      <h2 class="text-[36px] font-headline font-normal text-brand-charcoal mb-12">Begin your journey</h2>
+      <a href="index.html#contact" class="inline-block hairline border-brand-border text-brand-charcoal text-[10px] uppercase tracking-[0.16em] px-10 py-4 rounded-[2px] hover:bg-brand-charcoal hover:text-white transition-all duration-300">
+        SCHEDULE YOUR COMPLIMENTARY CONSULTATION
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<!-- ====== FOOTER ====== -->
+<footer class="bg-brand-charcoal text-white hairline-t border-stone-800">
+  <div class="max-w-[1440px] mx-auto px-8 py-20 flex flex-col items-center text-center">
+    <div class="mb-6">
+      <div class="text-[11px] font-medium tracking-[0.2em] uppercase text-white mb-2">SILHOUETTE &amp; SOUL</div>
+      <div class="text-[9px] font-medium tracking-[0.22em] uppercase text-[#777777]">FINE ART STUDIO · WEST KELOWNA</div>
+    </div>
+    <div class="mb-10 space-y-1">
+      <div class="text-[10px] text-[#777777]">3269 McLeod Road · West Kelowna, BC</div>
+      <div class="text-[10px] text-[#777777]">250-215-3530</div>
+    </div>
+    <div class="flex flex-wrap justify-center gap-5 mb-12">
+      <a href="#" class="text-[9px] tracking-widest uppercase text-[#777777] hover:text-white transition-colors">INSTAGRAM</a>
+      <span class="text-[9px] tracking-widest uppercase text-[#777777]">JELLE DIJKSTRA PHOTOGRAPHY</span>
+    </div>
+    <div class="text-[9px] text-[#777777] opacity-60">© 2025 SILHOUETTE &amp; SOUL PHOTOGRAPHY</div>
+  </div>
+</footer>
+
+<script>
+  const menuToggle = document.getElementById('menu-toggle');
+  const mobileMenu = document.getElementById('mobile-menu');
+  menuToggle.addEventListener('click', () => mobileMenu.classList.toggle('open'));
+  mobileMenu.querySelectorAll('a').forEach(l => l.addEventListener('click', () => mobileMenu.classList.remove('open')));
+</script>
+</body>
+</html>

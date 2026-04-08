@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Investment | Silhouette &amp; Soul</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            "brand-charcoal": "#1A1A1A",
+            "brand-cognac":   "#8B6B4E",
+            "brand-sand":     "#C4A882",
+            "brand-cream":    "#F7F0E8",
+            "brand-offwhite": "#F5F5F2",
+            "brand-border":   "#E8E4DF"
+          },
+          fontFamily: {
+            headline: ["Cormorant Garamond", "serif"],
+            body:     ["Jost", "sans-serif"]
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { font-family: 'Jost', sans-serif; -webkit-font-smoothing: antialiased; }
+    h1, h2, h3, h4 { font-family: 'Cormorant Garamond', serif; }
+    .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24; }
+    .hairline   { border-width: 0.5px; }
+    .hairline-b { border-bottom-width: 0.5px; }
+    .hairline-t { border-top-width: 0.5px; }
+    .hairline-r { border-right-width: 0.5px; }
+    #mobile-menu { display: none; }
+    #mobile-menu.open { display: flex; }
+  </style>
+</head>
+<body class="bg-brand-offwhite text-brand-charcoal overflow-x-hidden">
+
+<!-- ====== NAV ====== -->
+<nav class="fixed top-0 w-full h-[56px] z-50 bg-white/95 backdrop-blur-sm hairline-b border-stone-200">
+  <div class="flex justify-between items-center w-full px-6 md:px-8 max-w-[1440px] mx-auto h-full">
+    <a href="index.html" class="text-sm font-light tracking-widest text-stone-900 leading-tight">SILHOUETTE &amp; SOUL</a>
+    <div class="hidden md:flex items-center space-x-7">
+      <a href="index.html#experience"  class="text-[10px] font-medium tracking-[0.16em] uppercase text-stone-500 hover:text-stone-900 transition-colors">THE EXPERIENCE</a>
+      <a href="maternity-gallery.html" class="text-[10px] font-medium tracking-[0.16em] uppercase text-stone-500 hover:text-stone-900 transition-colors">MATERNITY</a>
+      <a href="boudoir-gallery.html"   class="text-[10px] font-medium tracking-[0.16em] uppercase text-stone-500 hover:text-stone-900 transition-colors">BOUDOIR</a>
+      <a href="fine-art-gallery.html"  class="text-[10px] font-medium tracking-[0.16em] uppercase text-stone-500 hover:text-stone-900 transition-colors">FINE ART</a>
+      <a href="meet-jelle.html"        class="text-[10px] font-medium tracking-[0.16em] uppercase text-stone-500 hover:text-stone-900 transition-colors">ABOUT</a>
+      <a href="investment.html"        class="text-[10px] font-medium tracking-[0.16em] uppercase text-stone-900 border-b border-stone-900 pb-1">PRICING</a>
+    </div>
+    <div class="flex items-center space-x-4">
+      <span class="hidden md:block text-[10px] tracking-widest text-stone-900">250-215-3530</span>
+      <a href="index.html#contact" class="text-[10px] tracking-[0.16em] bg-brand-charcoal text-white px-4 py-2 rounded-[2px] hover:opacity-80 transition-opacity">BOOK YOUR SESSION</a>
+      <button id="menu-toggle" class="md:hidden flex flex-col justify-center items-center w-8 h-8 space-y-1" aria-label="Open menu">
+        <span class="block w-5 h-[0.5px] bg-stone-900"></span>
+        <span class="block w-5 h-[0.5px] bg-stone-900"></span>
+        <span class="block w-5 h-[0.5px] bg-stone-900"></span>
+      </button>
+    </div>
+  </div>
+  <div id="mobile-menu" class="flex-col bg-white hairline-b border-stone-200 px-6 pb-6 pt-4 space-y-4 absolute w-full top-[56px] left-0 z-40">
+    <a href="index.html#experience"  class="block text-[11px] tracking-[0.16em] uppercase text-stone-600">THE EXPERIENCE</a>
+    <a href="maternity-gallery.html" class="block text-[11px] tracking-[0.16em] uppercase text-stone-600">MATERNITY</a>
+    <a href="boudoir-gallery.html"   class="block text-[11px] tracking-[0.16em] uppercase text-stone-600">BOUDOIR</a>
+    <a href="fine-art-gallery.html"  class="block text-[11px] tracking-[0.16em] uppercase text-stone-600">FINE ART</a>
+    <a href="meet-jelle.html"        class="block text-[11px] tracking-[0.16em] uppercase text-stone-600">ABOUT JELLE</a>
+    <a href="investment.html"        class="block text-[11px] tracking-[0.16em] uppercase text-stone-900 font-medium">PRICING</a>
+  </div>
+</nav>
+
+<main class="mt-[56px]">
+
+  <!-- ====== HERO ====== -->
+  <section class="bg-white pt-20 pb-16 px-6 text-center hairline-b border-brand-border">
+    <span class="block text-[9px] text-[#777777] font-medium uppercase tracking-[0.22em] mb-4">INVESTMENT GUIDE</span>
+    <h1 class="text-[clamp(28px,5vw,48px)] text-brand-charcoal font-normal leading-tight mb-4">Your investment</h1>
+    <p class="text-[13px] text-[#777777] max-w-[480px] mx-auto leading-[1.7]">
+      A private fine art session is one of the most meaningful gifts you can give yourself. Here's what that looks like.
+    </p>
+  </section>
+
+  <!-- ====== INTRO ====== -->
+  <section class="bg-brand-offwhite py-20 px-6">
+    <div class="max-w-[700px] mx-auto text-center">
+      <p class="text-[14px] text-[#444444] leading-[1.9]">
+        Every session at Silhouette &amp; Soul begins with a creative fee that covers the full experience — from your private consultation to your in-person reveal. The images you choose to keep are selected after the shoot, with no pressure and no minimums.
+      </p>
+      <div class="mt-10 h-[0.5px] w-16 bg-brand-cognac mx-auto"></div>
+    </div>
+  </section>
+
+  <!-- ====== PRICING CARDS ====== -->
+  <section class="bg-white py-20 px-6">
+    <div class="max-w-[860px] mx-auto">
+      <div class="grid grid-cols-1 md:grid-cols-2 hairline border-brand-border rounded-[12px] overflow-hidden">
+
+        <!-- Card 1: Session Fee -->
+        <div class="p-10 md:p-12 hairline-r border-brand-border">
+          <span class="block text-[9px] font-medium tracking-[0.22em] uppercase text-brand-sand mb-6">THE SESSION EXPERIENCE</span>
+          <h2 class="text-[42px] font-headline font-normal text-brand-charcoal mb-1">$489</h2>
+          <p class="text-[12px] italic font-headline text-[#777777] mb-8">creative fee</p>
+          <ul class="space-y-4 mb-8">
+            <li class="flex items-start gap-3 text-[12px] text-[#444444]">
+              <span class="material-symbols-outlined text-[16px] text-brand-sand mt-[1px]">check</span>
+              Pre-session style &amp; concept consultation
+            </li>
+            <li class="flex items-start gap-3 text-[12px] text-[#444444]">
+              <span class="material-symbols-outlined text-[16px] text-brand-sand mt-[1px]">check</span>
+              Professional hair &amp; makeup artistry
+            </li>
+            <li class="flex items-start gap-3 text-[12px] text-[#444444]">
+              <span class="material-symbols-outlined text-[16px] text-brand-sand mt-[1px]">check</span>
+              Full access to studio wardrobe &amp; fabrics
+            </li>
+            <li class="flex items-start gap-3 text-[12px] text-[#444444]">
+              <span class="material-symbols-outlined text-[16px] text-brand-sand mt-[1px]">check</span>
+              Private one-on-one session with expert pose direction
+            </li>
+            <li class="flex items-start gap-3 text-[12px] text-[#444444]">
+              <span class="material-symbols-outlined text-[16px] text-brand-sand mt-[1px]">check</span>
+              In-person design &amp; reveal appointment
+            </li>
+            <li class="flex items-start gap-3 text-[12px] text-[#444444]">
+              <span class="material-symbols-outlined text-[16px] text-brand-sand mt-[1px]">check</span>
+              5 professionally retouched digital images included
+            </li>
+          </ul>
+          <p class="text-[11px] text-[#777777] italic">Digital print release included with all images.</p>
+        </div>
+
+        <!-- Card 2: Additional Images -->
+        <div class="bg-brand-cream p-10 md:p-12">
+          <span class="block text-[9px] font-medium tracking-[0.22em] uppercase text-brand-sand mb-6">ADDITIONAL IMAGES</span>
+          <h2 class="text-[42px] font-headline font-normal text-brand-charcoal mb-1">$50</h2>
+          <p class="text-[12px] italic font-headline text-[#777777] mb-8">per image</p>
+          <ul class="space-y-4 mb-8">
+            <li class="flex items-start gap-3 text-[12px] text-[#444444]">
+              <span class="material-symbols-outlined text-[16px] text-brand-sand mt-[1px]">check</span>
+              No minimum purchase required
+            </li>
+            <li class="flex items-start gap-3 text-[12px] text-[#444444]">
+              <span class="material-symbols-outlined text-[16px] text-brand-sand mt-[1px]">check</span>
+              Image collections available at preferred pricing
+            </li>
+            <li class="flex items-start gap-3 text-[12px] text-[#444444]">
+              <span class="material-symbols-outlined text-[16px] text-brand-sand mt-[1px]">check</span>
+              You select at your private reveal appointment
+            </li>
+            <li class="flex items-start gap-3 text-[12px] text-[#444444]">
+              <span class="material-symbols-outlined text-[16px] text-brand-sand mt-[1px]">check</span>
+              Fine art prints &amp; wall art available to order
+            </li>
+          </ul>
+          <div class="hairline-t border-brand-border pt-6 mt-6">
+            <p class="text-[12px] text-[#444444] leading-[1.8]">
+              Most clients invest between <strong>$800 – $1,200</strong> total. There is never any pressure to purchase more than you love.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== ARTISTRY SECTION ====== -->
+  <section class="py-20 px-6">
+    <div class="max-w-[900px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+      <!-- IMAGE: investment-artistry — replace src URL below -->
+      <div class="aspect-[4/5] overflow-hidden bg-brand-border rounded-[3px]">
+        <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAPnBblJK8zxDo91qM0mLwbiCHq3g7t3_OnmGEYklWTMTshoeBtonlC1yJsTYQLRaZZCqxG7Z87q_fXFHmmnjVd9z-Zy2zJuyo5B87YyEkwcdzqfc9FsLym0MHvKhMjyzcj3A8UDZZBGaiYQINuSxyrrsOmarKs9Yw7fmruEk3apBg4ZnwGfts87eDMwY7acBEgvaXV5dC4zIgkzZP9X25i0ZFpjgQvAt62JC0_cR5EU3xuVT4Ro_GnsZxmr3UO8sx-X96wBYsj9dAT"
+             alt="Fine art session detail" class="w-full h-full object-cover grayscale"/>
+      </div>
+      <div>
+        <span class="block text-[9px] text-[#777777] font-medium tracking-[0.22em] uppercase mb-4">ARTISTRY IN EVERY FRAME</span>
+        <h2 class="text-[32px] font-headline font-normal text-brand-charcoal mb-6">More than a photoshoot.</h2>
+        <div class="space-y-4 text-[13px] text-[#444444] leading-[1.8]">
+          <p>Every session is a private, one-on-one experience designed entirely around you. From the moment you arrive, you are guided, supported, and celebrated.</p>
+          <p>The images are crafted with the same intention as a piece of fine art — because that is exactly what they are. These are not snapshots. They are portraits made to last a lifetime.</p>
+        </div>
+        <div class="mt-8 h-[0.5px] w-12 bg-brand-cognac mb-6"></div>
+        <p class="font-headline italic text-[15px] text-brand-charcoal">"You don't need to know how to pose. You just need to show up."</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== CTA ====== -->
+  <section class="bg-brand-charcoal py-24 px-6">
+    <div class="max-w-[600px] mx-auto text-center">
+      <span class="block text-[9px] text-brand-sand font-medium tracking-[0.22em] uppercase mb-4">READY TO BEGIN?</span>
+      <h2 class="text-[32px] font-headline font-normal text-white mb-6">Reserve your session</h2>
+      <p class="text-[13px] text-stone-400 mb-10 leading-[1.7]">
+        Start with a complimentary consultation. No commitment — just a conversation about you and your vision.
+      </p>
+      <!-- SCHEDULE YOUR CONVERSATION → contact form on homepage -->
+      <a href="index.html#contact" class="inline-block hairline border-white text-white text-[10px] uppercase tracking-[0.16em] px-10 py-4 rounded-[2px] hover:bg-white hover:text-brand-charcoal transition-all duration-300">
+        SCHEDULE YOUR CONVERSATION
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<!-- ====== FOOTER ====== -->
+<footer class="bg-brand-charcoal text-white hairline-t border-stone-800">
+  <div class="max-w-[1440px] mx-auto px-8 py-20 flex flex-col items-center text-center">
+    <div class="mb-6">
+      <div class="text-[11px] font-medium tracking-[0.2em] uppercase text-white mb-2">SILHOUETTE &amp; SOUL</div>
+      <div class="text-[9px] font-medium tracking-[0.22em] uppercase text-[#777777]">FINE ART STUDIO · WEST KELOWNA</div>
+    </div>
+    <div class="mb-10 space-y-1">
+      <div class="text-[10px] text-[#777777]">3269 McLeod Road · West Kelowna, BC</div>
+      <div class="text-[10px] text-[#777777]">250-215-3530</div>
+    </div>
+    <div class="flex flex-wrap justify-center gap-5 mb-12">
+      <a href="#" class="text-[9px] tracking-widest uppercase text-[#777777] hover:text-white transition-colors">INSTAGRAM</a>
+      <span class="text-[9px] tracking-widest uppercase text-[#777777]">JELLE DIJKSTRA PHOTOGRAPHY</span>
+    </div>
+    <div class="text-[9px] text-[#777777] opacity-60">© 2025 SILHOUETTE &amp; SOUL PHOTOGRAPHY</div>
+  </div>
+</footer>
+
+<script>
+  const menuToggle = document.getElementById('menu-toggle');
+  const mobileMenu = document.getElementById('mobile-menu');
+  menuToggle.addEventListener('click', () => mobileMenu.classList.toggle('open'));
+  mobileMenu.querySelectorAll('a').forEach(l => l.addEventListener('click', () => mobileMenu.classList.remove('open')));
+</script>
+</body>
+</html>
