@@ -3,8 +3,8 @@
   "configurations": [
     {
       "name": "Static File Server (Python)",
-      "runtimeExecutable": "python",
-      "runtimeArgs": ["-m", "http.server", "3000"],
+      "runtimeExecutable": "C:\\Users\\jelle\\AppData\\Local\\ms-playwright-go\\1.50.1\\node.exe",
+      "runtimeArgs": ["server.js"],
       "port": 3000
     }
   ]
