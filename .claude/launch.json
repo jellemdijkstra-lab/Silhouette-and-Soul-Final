@@ -5,7 +5,8 @@
       "name": "Static File Server (Python)",
       "runtimeExecutable": "C:\\Users\\jelle\\AppData\\Local\\ms-playwright-go\\1.50.1\\node.exe",
       "runtimeArgs": ["server.js"],
-      "port": 3000
+      "port": 3000,
+      "autoPort": true
     }
   ]
 }
