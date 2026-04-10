@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&amp;family=Jost:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "secondary-container": "#fed5b2",
+                        "on-primary-container": "#858383",
+                        "on-primary": "#ffffff",
+                        "tertiary-container": "#281901",
+                        "surface-container-lowest": "#ffffff",
+                        "on-tertiary-fixed": "#281901",
+                        "on-surface-variant": "#444748",
+                        "inverse-surface": "#2f312f",
+                        "surface-container": "#eeeeeb",
+                        "inverse-on-surface": "#f1f1ee",
+                        "outline": "#747878",
+                        "on-primary-fixed": "#1c1b1b",
+                        "surface-tint": "#5f5e5e",
+                        "surface-container-low": "#f4f4f1",
+                        "surface-variant": "#e2e3e0",
+                        "primary-fixed": "#e5e2e1",
+                        "surface-bright": "#f9f9f6",
+                        "on-secondary-container": "#795b3f",
+                        "secondary-fixed-dim": "#e7bf9d",
+                        "secondary": "#76583d",
+                        "surface-dim": "#dadad7",
+                        "on-surface": "#1a1c1b",
+                        "on-secondary-fixed": "#2b1703",
+                        "on-primary-fixed-variant": "#474746",
+                        "primary-fixed-dim": "#c8c6c5",
+                        "on-tertiary": "#ffffff",
+                        "on-error-container": "#93000a",
+                        "tertiary-fixed-dim": "#e0c29a",
+                        "on-tertiary-fixed-variant": "#584325",
+                        "on-background": "#1a1c1b",
+                        "secondary-fixed": "#ffdcbf",
+                        "error-container": "#ffdad6",
+                        "error": "#ba1a1a",
+                        "surface": "#f9f9f6",
+                        "on-error": "#ffffff",
+                        "tertiary": "#000000",
+                        "outline-variant": "#c4c7c7",
+                        "on-secondary-fixed-variant": "#5c4127",
+                        "background": "#f9f9f6",
+                        "surface-container-highest": "#e2e3e0",
+                        "inverse-primary": "#c8c6c5",
+                        "surface-container-high": "#e8e8e5",
+                        "on-tertiary-container": "#99805d",
+                        "tertiary-fixed": "#fddeb5",
+                        "on-secondary": "#ffffff",
+                        "primary-container": "#1c1b1b",
+                        "primary": "#000000",
+                        "warm-border": "#E8E4DF",
+                        "charcoal": "#1A1A1A",
+                        "dark-charcoal": "#2C2C2C",
+                        "warm-sand": "#C4A882",
+                        "cognac": "#8B6B4E"
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    fontFamily: {
+                        "serif": ["Cormorant Garamond", "serif"],
+                        "sans": ["Jost", "sans-serif"],
+                        "headline": ["Cormorant Garamond", "serif"],
+                        "body": ["Jost", "sans-serif"],
+                        "label": ["Jost", "sans-serif"]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 200, 'GRAD' 0, 'opsz' 24;
+            font-size: 18px;
+        }
+        .hairline-border {
+            border-width: 0.5px;
+        }
+        .hairline-border-b {
+            border-bottom-width: 0.5px;
+        }
+        .hairline-border-t {
+            border-top-width: 0.5px;
+        }
+        details > summary {
+            list-style: none;
+        }
+        details > summary::-webkit-details-marker {
+            display: none;
+        }
+        details[open] summary .expand-icon {
+            transform: rotate(45deg);
+        }
+        .transition-transform {
+            transition: transform 0.3s ease;
+        }
+    </style>
+</head>
+<body class="bg-surface font-sans text-on-surface antialiased">
+<!-- TopNavBar -->
+<header class="bg-white dark:bg-neutral-900 border-b-[0.5px] border-stone-200 dark:border-stone-800 sticky top-0 z-50">
+<nav class="flex justify-between items-center w-full px-12 py-6 max-w-full">
+<div class="text-xl font-normal tracking-[0.2em] text-stone-900 dark:text-stone-100 font-serif">
+                SILHOUETTE &amp; SOUL
+            </div>
+<div class="hidden md:flex items-center space-x-12">
+<a class="text-[9px] uppercase tracking-widest text-stone-500 dark:text-stone-400 hover:text-stone-800 dark:hover:text-stone-200 transition-colors" href="#">The Experience</a>
+<a class="text-[9px] uppercase tracking-widest text-stone-500 dark:text-stone-400 hover:text-stone-800 dark:hover:text-stone-200 transition-colors" href="#">Maternity</a>
+<a class="text-[9px] uppercase tracking-widest text-stone-500 dark:text-stone-400 hover:text-stone-800 dark:hover:text-stone-200 transition-colors" href="#">Boudoir</a>
+<a class="text-[9px] uppercase tracking-widest text-stone-500 dark:text-stone-400 hover:text-stone-800 dark:hover:text-stone-200 transition-colors" href="#">Fine Art</a>
+<a class="text-[9px] uppercase tracking-widest text-stone-500 dark:text-stone-400 hover:text-stone-800 dark:hover:text-stone-200 transition-colors" href="#">About</a>
+<a class="text-[9px] uppercase tracking-widest text-stone-500 dark:text-stone-400 hover:text-stone-800 dark:hover:text-stone-200 transition-colors" href="#">Pricing</a>
+</div>
+<button class="bg-charcoal text-white text-[10px] uppercase tracking-[0.16em] px-8 py-3 rounded-[2px] hover:opacity-90 transition-opacity">
+                Book Your Session
+            </button>
+</nav>
+</header>
+<main class="min-h-screen">
+<!-- Hero Section -->
+<section class="pt-32 pb-24 text-center px-6">
+<h1 class="font-serif text-[36px] font-normal text-charcoal tracking-wide mb-4">FAQ</h1>
+<div class="w-12 h-[0.5px] bg-warm-sand mx-auto"></div>
+</section>
+<!-- FAQ Section -->
+<section class="max-w-3xl mx-auto px-6 pb-32">
+<div class="space-y-0">
+<!-- Accordion Item 1 -->
+<details class="group hairline-border-b border-warm-border">
+<summary class="flex justify-between items-center py-8 cursor-pointer">
+<span class="text-[12px] uppercase tracking-[0.15em] text-charcoal font-medium">When should I book my maternity session?</span>
+<span class="material-symbols-outlined expand-icon transition-transform text-warm-sand">add</span>
+</summary>
+<div class="pb-10 pr-12">
+<p class="text-[13px] leading-[1.7] text-on-surface-variant font-light">
+                            The ideal time to book your maternity session in West Kelowna or the Okanagan is between 28 and 34 weeks. This is when your belly is beautifully defined while you are still comfortable enough to move and pose. My private studio schedule fills up quickly, so booking 1 to 2 months in advance is recommended. If you are closer to your due date, reach out anyway as I may have last minute availability.
+                        </p>
+</div>
+</details>
+<!-- Accordion Item 2 -->
+<details class="group hairline-border-b border-warm-border">
+<summary class="flex justify-between items-center py-8 cursor-pointer">
+<span class="text-[12px] uppercase tracking-[0.15em] text-charcoal font-medium">What is included in the session fee?</span>
+<span class="material-symbols-outlined expand-icon transition-transform text-warm-sand">add</span>
+</summary>
+<div class="pb-10 pr-12">
+<p class="text-[13px] leading-[1.7] text-on-surface-variant font-light">
+                            Your session fee includes a fully guided fine art experience in my private West Kelowna studio. This covers pre-session planning, posing guidance, professional lighting, and a relaxed, supportive environment. You will also receive a set number of professionally edited images, with the option to purchase more. Every session is designed to create timeless maternity or boudoir portraits in the Okanagan.
+                        </p>
+</div>
+</details>
+<!-- Accordion Item 3 -->
+<details class="group hairline-border-b border-warm-border">
+<summary class="flex justify-between items-center py-8 cursor-pointer">
+<span class="text-[12px] uppercase tracking-[0.15em] text-charcoal font-medium">Is hair and makeup included?</span>
+<span class="material-symbols-outlined expand-icon transition-transform text-warm-sand">add</span>
+</summary>
+<div class="pb-10 pr-12">
+<p class="text-[13px] leading-[1.7] text-on-surface-variant font-light">
+                            Hair and makeup can be added to your session for a polished, luxury experience. I work with trusted local artists in the West Kelowna and Okanagan area who understand the soft, fine art style of my work. While it is not included by default, I highly recommend it for both maternity and boudoir sessions. It helps you feel confident and camera-ready from the moment you arrive.
+                        </p>
+</div>
+</details>
+<!-- Accordion Item 4 -->
+<details class="group hairline-border-b border-warm-border">
+<summary class="flex justify-between items-center py-8 cursor-pointer">
+<span class="text-[12px] uppercase tracking-[0.15em] text-charcoal font-medium">How long does a maternity session take?</span>
+<span class="material-symbols-outlined expand-icon transition-transform text-warm-sand">add</span>
+</summary>
+<div class="pb-10 pr-12">
+<p class="text-[13px] leading-[1.7] text-on-surface-variant font-light">
+                            A typical maternity session in my West Kelowna studio lasts between 60 and 90 minutes. This allows enough time for outfit changes, different lighting setups, and guided posing without feeling rushed. I keep the experience calm and intentional to capture authentic, emotional images. Boudoir sessions may vary slightly depending on the level of variety you want.
+                        </p>
+</div>
+</details>
+<!-- Accordion Item 5 -->
+<details class="group hairline-border-b border-warm-border">
+<summary class="flex justify-between items-center py-8 cursor-pointer">
+<span class="text-[12px] uppercase tracking-[0.15em] text-charcoal font-medium">What should I wear for my boudoir session?</span>
+<span class="material-symbols-outlined expand-icon transition-transform text-warm-sand">add</span>
+</summary>
+<div class="pb-10 pr-12">
+<p class="text-[13px] leading-[1.7] text-on-surface-variant font-light">
+                            For your boudoir session, choose pieces that make you feel confident and comfortable, such as lingerie, robes, or even simple fabrics. I will guide you before your shoot with styling suggestions that suit the fine art look of my West Kelowna studio. Neutral tones, textures, and minimal distractions photograph beautifully with my light and shadow style. You do not need to be a model, I guide you through everything.
+                        </p>
+</div>
+</details>
+<!-- Accordion Item 6 -->
+<details class="group hairline-border-b border-warm-border">
+<summary class="flex justify-between items-center py-8 cursor-pointer">
+<span class="text-[12px] uppercase tracking-[0.15em] text-charcoal font-medium">How do I receive my final images?</span>
+<span class="material-symbols-outlined expand-icon transition-transform text-warm-sand">add</span>
+</summary>
+<div class="pb-10 pr-12">
+<p class="text-[13px] leading-[1.7] text-on-surface-variant font-light">
+                            After your session, you will receive access to a private online gallery where you can view and select your images. Final edits are delivered digitally in high resolution, ready for printing or sharing. Clients from across Kelowna and the Okanagan love the convenience of this process. Turnaround times are clearly communicated so you know exactly when to expect your images.
+                        </p>
+</div>
+</details>
+<!-- Accordion Item 7 -->
+<details class="group hairline-border-b border-warm-border">
+<summary class="flex justify-between items-center py-8 cursor-pointer">
+<span class="text-[12px] uppercase tracking-[0.15em] text-charcoal font-medium">Do you serve Kelowna, Peachland, or Lake Country?</span>
+<span class="material-symbols-outlined expand-icon transition-transform text-warm-sand">add</span>
+</summary>
+<div class="pb-10 pr-12">
+<p class="text-[13px] leading-[1.7] text-on-surface-variant font-light">
+                            Yes, my studio is based in West Kelowna and I regularly work with clients from Kelowna, Peachland, Lake Country, and across the Okanagan. Many clients travel specifically for the private, guided fine art experience I offer. Whether you are booking a maternity or boudoir session, you are welcome in my studio. I aim to make every client feel comfortable, respected, and confident.
+                        </p>
+</div>
+</details>
+</div>
+</section>
+<!-- CTA / Image Break -->
+<section class="w-full bg-surface-container-low py-32 overflow-hidden px-12">
+<div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-20">
+<div class="w-full md:w-1/2 aspect-[4/5] bg-stone-200 overflow-hidden rounded-[2px]">
+<img class="w-full h-full object-cover grayscale opacity-90 transition-opacity hover:opacity-100 duration-500" data-alt="Soft ethereal fine art maternity portrait in a sunlit studio with high-key lighting and minimalist white background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDbGVh-o2fyV1ggbscGyv8LFm-l16DQt9wD_uUa7scj3jc8fAx6v27L4XPt7N0ZEY10Mzb1ki5GMxJ5j_JmzuuSSPhsLv3B0aifhC0V6yPVCdkqdRloAo716wCVM2cnjp7VK5md1zMTcA76o18t02xRJev7n2sKIhQwxI1ydeIP2tvJTefOCMbfCzTaBu0WCxMWhuR9MBPUoiPetN3-PTkxNt0Z_lK6R7O7PsZK18PhksRHeXmOmJmuZ71fI0ZYuR5HzH8D2qugEe4F"/>
+</div>
+<div class="w-full md:w-1/2 space-y-8">
+<h2 class="font-serif text-[32px] text-charcoal leading-tight">Capturing the <br/><span class="italic">unseen</span> moments of your journey.</h2>
+<p class="text-[14px] text-on-surface-variant leading-relaxed max-w-md">Our West Kelowna studio is a sanctuary designed for you to reconnect with your soul through fine art portraiture.</p>
+<div class="pt-4">
+<button class="hairline-border border-warm-border text-charcoal text-[10px] uppercase tracking-[0.16em] px-10 py-4 rounded-[2px] hover:border-charcoal transition-colors">Start Your Journey</button>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#2C2C2C] dark:bg-black w-full py-16 flex flex-col items-center justify-center space-y-8 text-center">
+<div class="flex flex-col items-center space-y-6">
+<div class="flex flex-col md:flex-row items-center gap-4 md:gap-8 text-stone-300 dark:text-stone-500 text-[10px] uppercase tracking-[0.16em]">
+<span class="text-white">PHOTOGRAPHY BY JELLE DIJKSTRA</span>
+<span class="hidden md:inline-block w-[0.5px] h-4 bg-stone-700"></span>
+<span>TRUSTED PARTNERS</span>
+</div>
+<div class="flex space-x-12 pt-4">
+<a class="text-stone-400 text-[10px] uppercase tracking-[0.16em] hover:text-[#C4A882] transition-colors duration-500" href="#">Instagram</a>
+<a class="text-stone-400 text-[10px] uppercase tracking-[0.16em] hover:text-[#C4A882] transition-colors duration-500" href="#">Pinterest</a>
+<a class="text-stone-400 text-[10px] uppercase tracking-[0.16em] hover:text-[#C4A882] transition-colors duration-500" href="#">Contact</a>
+</div>
+</div>
+<div class="pt-8 text-stone-500 text-[8px] uppercase tracking-[0.2em] font-light">
+            © 2024 SILHOUETTE &amp; SOUL • FINE ART PHOTOGRAPHY STUDIO
+        </div>
+</footer>
+</body></html>
