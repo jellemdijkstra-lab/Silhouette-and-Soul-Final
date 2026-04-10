@@ -4,6 +4,7 @@
     { "source": "/boudoir-photography-west-kelowna", "destination": "/boudoir-gallery.html" },
     { "source": "/meet-jelle-dijkstra", "destination": "/meet-jelle.html" },
     { "source": "/investment", "destination": "/investment.html" },
-    { "source": "/fine-art-photography-west-kelowna", "destination": "/fine-art-gallery.html" }
+    { "source": "/fine-art-photography-west-kelowna", "destination": "/fine-art-gallery.html" },
+    { "source": "/faq", "destination": "/faq.html" }
   ]
 }
