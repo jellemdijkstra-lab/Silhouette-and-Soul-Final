@@ -1,9 +1,28 @@
 [build]
   publish = "."
 
-# Redirect .html URLs to clean URLs (301 permanent)
+# Serve clean URLs by mapping them to .html files
 [[redirects]]
-  from = "/*.html"
-  to = "/:splat"
-  status = 301
-  force = true
+  from = "/maternity-gallery"
+  to = "/maternity-gallery.html"
+  status = 200
+
+[[redirects]]
+  from = "/boudoir-gallery"
+  to = "/boudoir-gallery.html"
+  status = 200
+
+[[redirects]]
+  from = "/meet-jelle"
+  to = "/meet-jelle.html"
+  status = 200
+
+[[redirects]]
+  from = "/investment"
+  to = "/investment.html"
+  status = 200
+
+[[redirects]]
+  from = "/fine-art-gallery"
+  to = "/fine-art-gallery.html"
+  status = 200
