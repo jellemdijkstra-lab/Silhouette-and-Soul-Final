@@ -154,11 +154,30 @@
 <main class="mt-[56px]">
 
   <!-- ====== HERO ====== -->
-  <!-- IMAGE: hero-background — replace the URL in style="background-image: url('...')" below -->
-  <section class="relative w-full min-h-[90vh] md:min-h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat"
-           style="background-image: url('https://res.cloudinary.com/dgfkvj1pg/image/upload/v1775578317/E34A9337-Edit_jzjj7m.jpg')">
-    <!-- Dark overlay so text stays readable over any photo -->
-    <div class="absolute inset-0 bg-black/40"></div>
+  <section class="relative w-full min-h-[90vh] md:min-h-screen flex items-center justify-center">
+
+    <!-- Desktop background (hidden on mobile) -->
+    <div class="hidden md:block absolute inset-0 bg-cover bg-center bg-no-repeat"
+         style="background-image: url('https://res.cloudinary.com/dgfkvj1pg/image/upload/v1775578317/E34A9337-Edit_jzjj7m.jpg')"></div>
+
+    <!-- Mobile slideshow (hidden on desktop) -->
+    <div class="md:hidden absolute inset-0 overflow-hidden">
+      <img class="hero-slide absolute inset-0 w-full h-full object-cover object-center" style="transition: opacity 1.2s ease; opacity:1;"
+           src="https://res.cloudinary.com/dgfkvj1pg/image/upload/v1775579419/E34A8499_wng1kl.jpg"
+           alt="Fine art maternity portrait West Kelowna — mobile hero"/>
+      <img class="hero-slide absolute inset-0 w-full h-full object-cover object-center" style="transition: opacity 1.2s ease; opacity:0;"
+           src="https://res.cloudinary.com/dgfkvj1pg/image/upload/q_auto/f_auto/v1775578317/E34A9226_ajtr15.jpg"
+           alt="West Kelowna boudoir photography — mobile hero"/>
+      <img class="hero-slide absolute inset-0 w-full h-full object-cover object-center" style="transition: opacity 1.2s ease; opacity:0;"
+           src="https://res.cloudinary.com/dgfkvj1pg/image/upload/q_auto/f_auto/v1775578505/E34A1953_ye1fkt.jpg"
+           alt="Fine art portrait Silhouette and Soul — mobile hero"/>
+      <img class="hero-slide absolute inset-0 w-full h-full object-cover object-center" style="transition: opacity 1.2s ease; opacity:0;"
+           src="https://res.cloudinary.com/dgfkvj1pg/image/upload/q_auto/f_auto/v1775578313/E34A8497_tjr0jt.jpg"
+           alt="Okanagan fine art photography — mobile hero"/>
+    </div>
+
+    <!-- Dark overlay -->
+    <div class="absolute inset-0 bg-black/40" style="z-index:1;"></div>
 
     <!-- Content -->
     <div class="relative z-10 max-w-[700px] mx-auto text-center px-6 py-24">
