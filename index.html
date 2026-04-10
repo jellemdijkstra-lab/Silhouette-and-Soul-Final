@@ -505,21 +505,43 @@
 
 <!-- ====== FOOTER ====== -->
 <footer class="bg-brand-charcoal text-white hairline-t border-stone-800">
-  <div class="max-w-[1440px] mx-auto px-8 py-20 flex flex-col items-center text-center">
-    <div class="mb-6">
-      <div class="text-[11px] font-medium tracking-[0.2em] uppercase text-white mb-2">SILHOUETTE &amp; SOUL</div>
-      <div class="text-[9px] font-medium tracking-[0.22em] uppercase text-[#777777]">FINE ART STUDIO · WEST KELOWNA</div>
+  <div class="max-w-[1440px] mx-auto px-8 md:px-16 py-20">
+    <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-16">
+
+      <!-- Left: Business info -->
+      <div class="flex flex-col gap-8">
+        <div>
+          <div class="text-[11px] font-medium tracking-[0.2em] uppercase text-white mb-2">SILHOUETTE &amp; SOUL</div>
+          <div class="text-[9px] font-medium tracking-[0.22em] uppercase text-[#777777]">FINE ART STUDIO · WEST KELOWNA</div>
+        </div>
+        <div class="space-y-1">
+          <div class="text-[10px] text-[#777777]">3269 McLeod Road · West Kelowna, BC</div>
+          <div class="text-[10px] text-[#777777]">250-215-3530 · <a href="mailto:silhouetteandsoul.com" class="hover:text-white transition-colors">silhouetteandsoul.com</a></div>
+        </div>
+        <div class="flex flex-wrap gap-5">
+          <a href="https://www.instagram.com/silhouetteandsoulstudio/" target="_blank" rel="noopener noreferrer" class="text-[9px] tracking-widest uppercase text-[#777777] hover:text-white transition-colors">INSTAGRAM</a>
+          <span class="text-[9px] tracking-widest uppercase text-[#555555]">·</span>
+          <span class="text-[9px] tracking-widest uppercase text-[#777777]">JELLE DIJKSTRA PHOTOGRAPHY</span>
+          <span class="text-[9px] tracking-widest uppercase text-[#555555]">·</span>
+          <a href="/investment" class="text-[9px] tracking-widest uppercase text-[#777777] hover:text-white transition-colors">TRUSTED PARTNERS</a>
+        </div>
+        <div class="text-[9px] text-[#777777] opacity-60">© 2025 SILHOUETTE &amp; SOUL PHOTOGRAPHY</div>
+      </div>
+
+      <!-- Right: Map embed (desaturated) -->
+      <div class="w-full md:w-[400px] flex-shrink-0 overflow-hidden rounded-[3px] opacity-80 hover:opacity-100 transition-opacity duration-500" style="filter: grayscale(100%) contrast(0.9);">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.872347697955!2d-119.6682906217127!3d49.84485603078046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8797b9cc2477c571%3A0x686cd7e7ea37d322!2sSilhouette%20and%20Soul%20Photography!5e0!3m2!1sen!2sca!4v1775794538689!5m2!1sen!2sca"
+          width="400" height="280"
+          style="border:0; display:block; width:100%;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Silhouette and Soul Photography — 3269 McLeod Road, West Kelowna BC">
+        </iframe>
+      </div>
+
     </div>
-    <div class="mb-10 space-y-1">
-      <div class="text-[10px] text-[#777777]">3269 McLeod Road · West Kelowna, BC</div>
-      <div class="text-[10px] text-[#777777]">250 215-3530</div>
-    </div>
-    <div class="flex flex-wrap justify-center gap-5 mb-12">
-      <a href="https://www.instagram.com/silhouetteandsoulstudio/" target="_blank" rel="noopener noreferrer" class="text-[9px] tracking-widest uppercase text-[#777777] hover:text-white transition-colors">INSTAGRAM</a>
-      <span class="text-[9px] tracking-widest uppercase text-[#777777]">JELLE DIJKSTRA PHOTOGRAPHY</span>
-      <a href="meet-jelle.html" class="text-[9px] tracking-widest uppercase text-[#777777] hover:text-white transition-colors">ABOUT JELLE</a>
-    </div>
-    <div class="text-[9px] text-[#777777] opacity-60">© 2025 SILHOUETTE &amp; SOUL PHOTOGRAPHY</div>
   </div>
 </footer>
 
