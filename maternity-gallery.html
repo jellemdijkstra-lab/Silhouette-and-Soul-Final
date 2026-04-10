@@ -3,6 +3,30 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!-- SEO -->
+  <meta name="description" content="Maternity portraits by Silhouette &amp; Soul — fine art photography studio in West Kelowna, BC. Sacred, intimate images that honour the beauty and power of expectancy."/>
+  <meta name="robots" content="index, follow"/>
+  <link rel="canonical" href="https://www.silhouetteandsoul.com/maternity-gallery"/>
+  <link rel="icon" href="/favicon.ico" sizes="any"/>
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website"/>
+  <meta property="og:site_name" content="Silhouette &amp; Soul"/>
+  <meta property="og:title" content="Maternity Gallery | Silhouette &amp; Soul"/>
+  <meta property="og:description" content="Sacred, intimate maternity portraits crafted to honour the quiet power and radiant beauty of expectancy. West Kelowna fine art photography."/>
+  <meta property="og:url" content="https://www.silhouetteandsoul.com/maternity-gallery"/>
+  <meta property="og:image" content="https://res.cloudinary.com/dgfkvj1pg/image/upload/q_auto/f_auto/v1775578310/E34A6565-Edit-Edit_xgzr5x.jpg"/>
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="Maternity Gallery | Silhouette &amp; Soul"/>
+  <meta name="twitter:description" content="Sacred, intimate maternity portraits — West Kelowna fine art photography."/>
+  <meta name="twitter:image" content="https://res.cloudinary.com/dgfkvj1pg/image/upload/q_auto/f_auto/v1775578310/E34A6565-Edit-Edit_xgzr5x.jpg"/>
+
+  <!-- Performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link rel="preconnect" href="https://res.cloudinary.com"/>
   <title>Maternity Gallery | Silhouette &amp; Soul</title>
   <script src="https://cdn.tailwindcss.com?plugins=forms"></script>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet"/>
@@ -38,24 +62,43 @@
     .gallery-img { transition: filter 0.4s ease; filter: grayscale(20%); }
     .gallery-img:hover { filter: grayscale(0%); }
   </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ImageGallery",
+  "name": "Maternity Gallery — Silhouette & Soul",
+  "description": "Sacred, intimate maternity portraits crafted to honour the quiet power and radiant beauty of expectancy.",
+  "url": "https://www.silhouetteandsoul.com/maternity-gallery",
+  "author": {
+    "@type": "Person",
+    "name": "Jelle Dijkstra",
+    "jobTitle": "Fine Art Photographer"
+  },
+  "provider": {
+    "@type": "LocalBusiness",
+    "name": "Silhouette & Soul",
+    "url": "https://www.silhouetteandsoul.com"
+  }
+}
+</script>
 </head>
 <body class="bg-white text-brand-charcoal overflow-x-hidden">
 
 <!-- ====== NAV ====== -->
 <nav class="fixed top-0 w-full h-[56px] z-50 bg-white/95 backdrop-blur-sm hairline-b border-stone-200">
   <div class="flex justify-between items-center w-full px-6 md:px-8 max-w-[1440px] mx-auto h-full">
-    <a href="index.html" class="text-sm font-light tracking-widest text-stone-900 leading-tight">SILHOUETTE &amp; SOUL</a>
+    <a href="/" class="text-sm font-light tracking-widest text-stone-900 leading-tight">SILHOUETTE &amp; SOUL</a>
     <div class="hidden md:flex items-center space-x-7">
-      <a href="index.html#experience"  class="text-[10px] font-medium tracking-[0.16em] uppercase text-stone-500 hover:text-stone-900 transition-colors">THE EXPERIENCE</a>
-      <a href="maternity-gallery.html" class="text-[10px] font-medium tracking-[0.16em] uppercase text-stone-900 border-b border-stone-900 pb-1">MATERNITY</a>
-      <a href="boudoir-gallery.html"   class="text-[10px] font-medium tracking-[0.16em] uppercase text-stone-500 hover:text-stone-900 transition-colors">BOUDOIR</a>
-      <!-- <a href="fine-art-gallery.html"  class="text-[10px] font-medium tracking-[0.16em] uppercase text-stone-500 hover:text-stone-900 transition-colors">FINE ART</a> -->
-      <a href="meet-jelle.html"        class="text-[10px] font-medium tracking-[0.16em] uppercase text-stone-500 hover:text-stone-900 transition-colors">ABOUT</a>
-      <a href="investment.html"        class="text-[10px] font-medium tracking-[0.16em] uppercase text-stone-500 hover:text-stone-900 transition-colors">PRICING</a>
+      <a href="/#experience"           class="text-[10px] font-medium tracking-[0.16em] uppercase text-stone-500 hover:text-stone-900 transition-colors">THE EXPERIENCE</a>
+      <a href="/maternity-gallery"     class="text-[10px] font-medium tracking-[0.16em] uppercase text-stone-900 border-b border-stone-900 pb-1">MATERNITY</a>
+      <a href="/boudoir-gallery"       class="text-[10px] font-medium tracking-[0.16em] uppercase text-stone-500 hover:text-stone-900 transition-colors">BOUDOIR</a>
+      <!-- <a href="/fine-art-gallery"  class="text-[10px] font-medium tracking-[0.16em] uppercase text-stone-500 hover:text-stone-900 transition-colors">FINE ART</a> -->
+      <a href="/meet-jelle"            class="text-[10px] font-medium tracking-[0.16em] uppercase text-stone-500 hover:text-stone-900 transition-colors">ABOUT</a>
+      <a href="/investment"            class="text-[10px] font-medium tracking-[0.16em] uppercase text-stone-500 hover:text-stone-900 transition-colors">PRICING</a>
     </div>
     <div class="flex items-center space-x-4">
       <span class="hidden md:block text-[10px] tracking-widest text-stone-900">250-215-3530</span>
-      <a href="index.html#contact" class="text-[10px] tracking-[0.16em] bg-brand-charcoal text-white px-4 py-2 rounded-[2px] hover:opacity-80 transition-opacity">BOOK YOUR SESSION</a>
+      <a href="/#contact" class="text-[10px] tracking-[0.16em] bg-brand-charcoal text-white px-4 py-2 rounded-[2px] hover:opacity-80 transition-opacity">BOOK YOUR SESSION</a>
       <button id="menu-toggle" class="md:hidden flex flex-col justify-center items-center w-8 h-8 space-y-1" aria-label="Open menu">
         <span class="block w-5 h-[0.5px] bg-stone-900"></span>
         <span class="block w-5 h-[0.5px] bg-stone-900"></span>
@@ -64,12 +107,12 @@
     </div>
   </div>
   <div id="mobile-menu" class="flex-col bg-white hairline-b border-stone-200 px-6 pb-6 pt-4 space-y-4 absolute w-full top-[56px] left-0 z-40">
-    <a href="index.html#experience"  class="block text-[11px] tracking-[0.16em] uppercase text-stone-600">THE EXPERIENCE</a>
-    <a href="maternity-gallery.html" class="block text-[11px] tracking-[0.16em] uppercase text-stone-900 font-medium">MATERNITY</a>
-    <a href="boudoir-gallery.html"   class="block text-[11px] tracking-[0.16em] uppercase text-stone-600">BOUDOIR</a>
-    <!-- <a href="fine-art-gallery.html"  class="block text-[11px] tracking-[0.16em] uppercase text-stone-600">FINE ART</a> -->
-    <a href="meet-jelle.html"        class="block text-[11px] tracking-[0.16em] uppercase text-stone-600">ABOUT JELLE</a>
-    <a href="investment.html"        class="block text-[11px] tracking-[0.16em] uppercase text-stone-600">PRICING</a>
+    <a href="/#experience"        class="block text-[11px] tracking-[0.16em] uppercase text-stone-600">THE EXPERIENCE</a>
+    <a href="/maternity-gallery" class="block text-[11px] tracking-[0.16em] uppercase text-stone-900 font-medium">MATERNITY</a>
+    <a href="/boudoir-gallery"   class="block text-[11px] tracking-[0.16em] uppercase text-stone-600">BOUDOIR</a>
+    <!-- <a href="/fine-art-gallery"  class="block text-[11px] tracking-[0.16em] uppercase text-stone-600">FINE ART</a> -->
+    <a href="/meet-jelle"        class="block text-[11px] tracking-[0.16em] uppercase text-stone-600">ABOUT JELLE</a>
+    <a href="/investment"        class="block text-[11px] tracking-[0.16em] uppercase text-stone-600">PRICING</a>
   </div>
 </nav>
 
@@ -78,7 +121,7 @@
   <!-- ====== HEADER ====== -->
   <section class="bg-brand-offwhite pt-20 pb-12 px-6">
     <div class="max-w-[900px] mx-auto">
-      <a href="index.html" class="inline-flex items-center gap-2 text-[10px] tracking-widest uppercase text-stone-500 hover:text-brand-charcoal transition-colors mb-8">
+      <a href="/" class="inline-flex items-center gap-2 text-[10px] tracking-widest uppercase text-stone-500 hover:text-brand-charcoal transition-colors mb-8">
         <span class="material-symbols-outlined text-[16px]">arrow_back</span> Back to Overview
       </a>
       <span class="block text-[9px] text-[#777777] font-medium tracking-[0.22em] uppercase mb-3">THE WORK</span>
@@ -110,12 +153,12 @@
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
         <!-- IMAGE: maternity-gallery-2 — replace src URL below -->
         <div class="aspect-[3/4] overflow-hidden bg-brand-offwhite rounded-[3px]">
-          <img src="https://res.cloudinary.com/dgfkvj1pg/image/upload/q_auto/f_auto/v1775578320/E34A9641_kin5bk.jpg"
+          <img loading="lazy" src="https://res.cloudinary.com/dgfkvj1pg/image/upload/q_auto/f_auto/v1775578320/E34A9641_kin5bk.jpg"
                alt="Maternity portrait — Silhouette" class="gallery-img w-full h-full object-cover"/>
         </div>
         <!-- IMAGE: maternity-gallery-3 — replace src URL below -->
         <div class="aspect-[3/4] overflow-hidden bg-brand-offwhite rounded-[3px]">
-          <img src="https://res.cloudinary.com/dgfkvj1pg/image/upload/q_auto/f_auto/v1775578310/E34A6565-Edit-Edit_xgzr5x.jpg"
+          <img loading="lazy" src="https://res.cloudinary.com/dgfkvj1pg/image/upload/q_auto/f_auto/v1775578310/E34A6565-Edit-Edit_xgzr5x.jpg"
                alt="Maternity portrait — Atmosphere" class="gallery-img w-full h-full object-cover"/>
         </div>
       </div>
@@ -124,24 +167,24 @@
       <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-6">
         <!-- IMAGE: maternity-gallery-4 — replace src URL below -->
         <div class="aspect-[4/5] overflow-hidden bg-brand-offwhite rounded-[3px]">
-          <img src="https://res.cloudinary.com/dgfkvj1pg/image/upload/q_auto/f_auto/v1775578313/E34A8755_o1e3w6.jpg"
+          <img loading="lazy" src="https://res.cloudinary.com/dgfkvj1pg/image/upload/q_auto/f_auto/v1775578313/E34A8755_o1e3w6.jpg"
                alt="Maternity portrait — Detail" class="gallery-img w-full h-full object-cover"/>
         </div>
         <!-- IMAGE: maternity-gallery-5 — replace src URL below -->
         <div class="aspect-[4/5] overflow-hidden bg-brand-offwhite rounded-[3px]">
-          <img src="https://res.cloudinary.com/dgfkvj1pg/image/upload/q_auto/f_auto/v1775578311/E34A6703-Edit_eui3az.jpg"
+          <img loading="lazy" src="https://res.cloudinary.com/dgfkvj1pg/image/upload/q_auto/f_auto/v1775578311/E34A6703-Edit_eui3az.jpg"
                alt="Maternity portrait — Poetry" class="gallery-img w-full h-full object-cover"/>
         </div>
         <!-- IMAGE: maternity-gallery-6 — replace src URL below -->
         <div class="aspect-[4/5] overflow-hidden bg-brand-offwhite rounded-[3px]">
-          <img src="https://res.cloudinary.com/dgfkvj1pg/image/upload/q_auto/f_auto/v1775578324/E34A9991_osvkj5.jpg"
+          <img loading="lazy" src="https://res.cloudinary.com/dgfkvj1pg/image/upload/q_auto/f_auto/v1775578324/E34A9991_osvkj5.jpg"
                alt="Maternity portrait — Minimal" class="gallery-img w-full h-full object-cover"/>
         </div>
       </div>
 
       <!-- IMAGE: maternity-gallery-7 (horizontal) -->
       <div class="aspect-[16/9] overflow-hidden bg-brand-offwhite rounded-[3px] mb-6">
-        <img src="https://res.cloudinary.com/dgfkvj1pg/image/upload/v1775578318/E34A9509-Edit-2_gn3xfa.jpg"
+        <img loading="lazy" src="https://res.cloudinary.com/dgfkvj1pg/image/upload/v1775578318/E34A9509-Edit-2_gn3xfa.jpg"
              alt="Maternity portrait — horizontal" class="gallery-img w-full h-full object-cover"/>
       </div>
 
@@ -149,24 +192,24 @@
       <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-6">
         <!-- IMAGE: maternity-gallery-8 — replace src URL below -->
         <div class="aspect-[4/5] overflow-hidden bg-brand-offwhite rounded-[3px]">
-          <img src="https://res.cloudinary.com/dgfkvj1pg/image/upload/q_auto/f_auto/v1775578323/E34A9975_wa8at9.jpg"
+          <img loading="lazy" src="https://res.cloudinary.com/dgfkvj1pg/image/upload/q_auto/f_auto/v1775578323/E34A9975_wa8at9.jpg"
                alt="Maternity portrait 8" class="gallery-img w-full h-full object-cover"/>
         </div>
         <!-- IMAGE: maternity-gallery-9 — replace src URL below -->
         <div class="aspect-[4/5] overflow-hidden bg-brand-offwhite rounded-[3px]">
-          <img src="https://res.cloudinary.com/dgfkvj1pg/image/upload/q_auto/f_auto/v1775578316/E34A8954_m9mtxd.jpg"
+          <img loading="lazy" src="https://res.cloudinary.com/dgfkvj1pg/image/upload/q_auto/f_auto/v1775578316/E34A8954_m9mtxd.jpg"
                alt="Maternity portrait 9" class="gallery-img w-full h-full object-cover"/>
         </div>
         <!-- IMAGE: maternity-gallery-10 — replace src URL below -->
         <div class="aspect-[4/5] overflow-hidden bg-brand-offwhite rounded-[3px]">
-          <img src="https://res.cloudinary.com/dgfkvj1pg/image/upload/q_auto/f_auto/v1775578317/E34A9226_ajtr15.jpg"
+          <img loading="lazy" src="https://res.cloudinary.com/dgfkvj1pg/image/upload/q_auto/f_auto/v1775578317/E34A9226_ajtr15.jpg"
                alt="Maternity portrait 10" class="gallery-img w-full h-full object-cover"/>
         </div>
       </div>
 
       <!-- IMAGE: maternity-gallery-11 (horizontal) -->
       <div class="aspect-[16/9] overflow-hidden bg-brand-offwhite rounded-[3px] mb-16">
-        <img src="https://res.cloudinary.com/dgfkvj1pg/image/upload/q_auto/f_auto/v1775578318/E34A9404-2_hobkpl.jpg"
+        <img loading="lazy" src="https://res.cloudinary.com/dgfkvj1pg/image/upload/q_auto/f_auto/v1775578318/E34A9404-2_hobkpl.jpg"
              alt="Maternity portrait — horizontal" class="gallery-img w-full h-full object-cover"/>
       </div>
 
@@ -175,7 +218,7 @@
         <p class="font-headline italic text-[22px] text-brand-charcoal leading-relaxed mb-8">
           "The most powerful thing a woman can wear is her own confidence — and my job is simply to help her find it."
         </p>
-        <a href="investment.html" class="inline-block text-[11px] font-medium text-brand-cognac tracking-widest hover:underline uppercase">VIEW PRICING GUIDE →</a>
+        <a href="/investment" class="inline-block text-[11px] font-medium text-brand-cognac tracking-widest hover:underline uppercase">VIEW PRICING GUIDE →</a>
       </div>
 
     </div>
@@ -185,7 +228,7 @@
   <section class="bg-brand-charcoal py-20 px-6">
     <div class="max-w-[560px] mx-auto text-center">
       <h2 class="text-[28px] font-headline font-normal text-white mb-6">Ready to book your maternity session?</h2>
-      <a href="index.html#contact" class="inline-block hairline border-white text-white text-[10px] uppercase tracking-[0.16em] px-10 py-4 rounded-[2px] hover:bg-white hover:text-brand-charcoal transition-all duration-300">
+      <a href="/#contact" class="inline-block hairline border-white text-white text-[10px] uppercase tracking-[0.16em] px-10 py-4 rounded-[2px] hover:bg-white hover:text-brand-charcoal transition-all duration-300">
         SCHEDULE YOUR CONSULTATION
       </a>
     </div>
@@ -205,9 +248,9 @@
       <div class="text-[10px] text-[#777777]">250-215-3530</div>
     </div>
     <div class="flex flex-wrap justify-center gap-5 mb-12">
-      <a href="maternity-gallery.html" class="text-[9px] tracking-widest uppercase text-[#777777] hover:text-white transition-colors">MATERNITY</a>
-      <a href="boudoir-gallery.html"   class="text-[9px] tracking-widest uppercase text-[#777777] hover:text-white transition-colors">BOUDOIR</a>
-      <!-- <a href="fine-art-gallery.html"  class="text-[9px] tracking-widest uppercase text-[#777777] hover:text-white transition-colors">FINE ART</a> -->
+      <a href="/maternity-gallery" class="text-[9px] tracking-widest uppercase text-[#777777] hover:text-white transition-colors">MATERNITY</a>
+      <a href="/boudoir-gallery"   class="text-[9px] tracking-widest uppercase text-[#777777] hover:text-white transition-colors">BOUDOIR</a>
+      <!-- <a href="/fine-art-gallery"  class="text-[9px] tracking-widest uppercase text-[#777777] hover:text-white transition-colors">FINE ART</a> -->
     </div>
     <div class="text-[9px] text-[#777777] opacity-60">© 2025 SILHOUETTE &amp; SOUL PHOTOGRAPHY</div>
   </div>
