@@ -26,3 +26,8 @@
   from = "/fine-art-gallery"
   to = "/fine-art-gallery.html"
   status = 200
+
+[[redirects]]
+  from = "/blog"
+  to = "/blog.html"
+  status = 200

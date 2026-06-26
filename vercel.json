@@ -5,7 +5,8 @@
     { "source": "/meet-jelle.html",         "destination": "/meet-jelle-dijkstra",                "permanent": true },
     { "source": "/investment.html",         "destination": "/investment",                          "permanent": true },
     { "source": "/fine-art-gallery.html",   "destination": "/fine-art-photography-west-kelowna",  "permanent": true },
-    { "source": "/faq.html",               "destination": "/faq",                                 "permanent": true }
+    { "source": "/faq.html",               "destination": "/faq",                                 "permanent": true },
+    { "source": "/blog.html",              "destination": "/blog",                                "permanent": true }
   ],
   "rewrites": [
     { "source": "/maternity-photography-west-kelowna",  "destination": "/maternity-gallery.html" },
@@ -13,6 +14,7 @@
     { "source": "/meet-jelle-dijkstra",                 "destination": "/meet-jelle.html" },
     { "source": "/investment",                          "destination": "/investment.html" },
     { "source": "/fine-art-photography-west-kelowna",   "destination": "/fine-art-gallery.html" },
-    { "source": "/faq",                                 "destination": "/faq.html" }
+    { "source": "/faq",                                 "destination": "/faq.html" },
+    { "source": "/blog",                                "destination": "/blog.html" }
   ]
 }
