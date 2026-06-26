@@ -6,7 +6,11 @@
     { "source": "/investment.html",         "destination": "/investment",                          "permanent": true },
     { "source": "/fine-art-gallery.html",   "destination": "/fine-art-photography-west-kelowna",  "permanent": true },
     { "source": "/faq.html",               "destination": "/faq",                                 "permanent": true },
-    { "source": "/blog.html",              "destination": "/blog",                                "permanent": true }
+    { "source": "/blog.html",              "destination": "/blog",                                "permanent": true },
+    { "source": "/blog-five-reasons-maternity-session.html", "destination": "/blog-five-reasons-maternity-session", "permanent": true },
+    { "source": "/blog-maternity-timing.html",                "destination": "/blog-maternity-timing",                "permanent": true },
+    { "source": "/blog-boudoir-gift-idea.html",               "destination": "/blog-boudoir-gift-idea",               "permanent": true },
+    { "source": "/blog-private-studio-experience.html",       "destination": "/blog-private-studio-experience",      "permanent": true }
   ],
   "rewrites": [
     { "source": "/maternity-photography-west-kelowna",  "destination": "/maternity-gallery.html" },
@@ -15,6 +19,10 @@
     { "source": "/investment",                          "destination": "/investment.html" },
     { "source": "/fine-art-photography-west-kelowna",   "destination": "/fine-art-gallery.html" },
     { "source": "/faq",                                 "destination": "/faq.html" },
-    { "source": "/blog",                                "destination": "/blog.html" }
+    { "source": "/blog",                                "destination": "/blog.html" },
+    { "source": "/blog-five-reasons-maternity-session", "destination": "/blog-five-reasons-maternity-session.html" },
+    { "source": "/blog-maternity-timing",               "destination": "/blog-maternity-timing.html" },
+    { "source": "/blog-boudoir-gift-idea",              "destination": "/blog-boudoir-gift-idea.html" },
+    { "source": "/blog-private-studio-experience",      "destination": "/blog-private-studio-experience.html" }
   ]
 }

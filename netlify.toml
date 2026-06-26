@@ -31,3 +31,23 @@
   from = "/blog"
   to = "/blog.html"
   status = 200
+
+[[redirects]]
+  from = "/blog-five-reasons-maternity-session"
+  to = "/blog-five-reasons-maternity-session.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog-maternity-timing"
+  to = "/blog-maternity-timing.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog-boudoir-gift-idea"
+  to = "/blog-boudoir-gift-idea.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog-private-studio-experience"
+  to = "/blog-private-studio-experience.html"
+  status = 200
