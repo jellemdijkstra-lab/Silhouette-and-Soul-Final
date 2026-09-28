@@ -56,3 +56,8 @@
   from = "/partners"
   to = "/partners.html"
   status = 200
+
+[[redirects]]
+  from = "/portraits-west-kelowna"
+  to = "/portraits-gallery.html"
+  status = 200
