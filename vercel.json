@@ -12,7 +12,8 @@
     { "source": "/blog-boudoir-gift-idea.html",               "destination": "/blog-boudoir-gift-idea",               "permanent": true },
     { "source": "/blog-private-studio-experience.html",       "destination": "/blog-private-studio-experience",      "permanent": true },
     { "source": "/partners.html",          "destination": "/partners",                            "permanent": true },
-    { "source": "/portraits-gallery.html", "destination": "/portraits-west-kelowna",              "permanent": true }
+    { "source": "/portraits-gallery.html",             "destination": "/portraits-west-kelowna",           "permanent": true },
+    { "source": "/blog-portrait-session-worth-it.html","destination": "/blog-portrait-session-worth-it",    "permanent": true }
   ],
   "rewrites": [
     { "source": "/maternity-photography-west-kelowna",  "destination": "/maternity-gallery.html" },
@@ -27,6 +28,7 @@
     { "source": "/blog-boudoir-gift-idea",              "destination": "/blog-boudoir-gift-idea.html" },
     { "source": "/blog-private-studio-experience",      "destination": "/blog-private-studio-experience.html" },
     { "source": "/partners",                            "destination": "/partners.html" },
-    { "source": "/portraits-west-kelowna",              "destination": "/portraits-gallery.html" }
+    { "source": "/portraits-west-kelowna",              "destination": "/portraits-gallery.html" },
+    { "source": "/blog-portrait-session-worth-it",      "destination": "/blog-portrait-session-worth-it.html" }
   ]
 }

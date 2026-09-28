@@ -61,3 +61,8 @@
   from = "/portraits-west-kelowna"
   to = "/portraits-gallery.html"
   status = 200
+
+[[redirects]]
+  from = "/blog-portrait-session-worth-it"
+  to = "/blog-portrait-session-worth-it.html"
+  status = 200
