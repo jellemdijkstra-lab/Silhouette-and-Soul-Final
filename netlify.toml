@@ -66,3 +66,8 @@
   from = "/blog-portrait-session-worth-it"
   to = "/blog-portrait-session-worth-it.html"
   status = 200
+
+[[redirects]]
+  from = "/blog-maternity-what-to-wear"
+  to = "/blog-maternity-what-to-wear.html"
+  status = 200
