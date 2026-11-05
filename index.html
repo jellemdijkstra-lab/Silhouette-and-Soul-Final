@@ -232,7 +232,7 @@
       </div>
 
       <!-- Carousel -->
-      <div class="relative px-10" id="testimonial-carousel">
+      <div class="relative" id="testimonial-carousel">
         <div class="overflow-hidden">
           <div id="testimonial-track" class="flex transition-transform duration-500 ease-in-out">
 
@@ -482,16 +482,18 @@
         </div>
 
         <!-- Arrows overlaid on card sides -->
-        <button id="t-prev" aria-label="Previous review" class="absolute left-0 top-8 w-8 h-8 flex items-center justify-center rounded-full hairline border-brand-border hover:border-brand-charcoal text-brand-charcoal transition-colors bg-white">
+      </div>
+
+      <!-- Dots + arrows row -->
+      <div class="flex items-center justify-center gap-4 mt-8">
+        <button id="t-prev" aria-label="Previous review" class="w-8 h-8 flex items-center justify-center rounded-full hairline border-brand-border hover:border-brand-charcoal text-brand-charcoal transition-colors">
           <span class="material-symbols-outlined text-[18px]" style="font-variation-settings:'wght' 300">chevron_left</span>
         </button>
-        <button id="t-next" aria-label="Next review" class="absolute right-0 top-8 w-8 h-8 flex items-center justify-center rounded-full hairline border-brand-border hover:border-brand-charcoal text-brand-charcoal transition-colors bg-white">
+        <div id="testimonial-dots" class="flex gap-2"></div>
+        <button id="t-next" aria-label="Next review" class="w-8 h-8 flex items-center justify-center rounded-full hairline border-brand-border hover:border-brand-charcoal text-brand-charcoal transition-colors">
           <span class="material-symbols-outlined text-[18px]" style="font-variation-settings:'wght' 300">chevron_right</span>
         </button>
       </div>
-
-      <!-- Dots -->
-      <div id="testimonial-dots" class="flex justify-center gap-2 mt-8"></div>
     </div>
   </section>
 
