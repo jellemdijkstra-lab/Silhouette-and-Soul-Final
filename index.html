@@ -232,8 +232,11 @@
       </div>
 
       <!-- Carousel -->
-      <div class="relative" id="testimonial-carousel">
-        <div class="overflow-hidden">
+      <div class="flex items-center gap-3" id="testimonial-carousel">
+        <button id="t-prev" aria-label="Previous review" class="flex-shrink-0 w-9 h-9 flex items-center justify-center rounded-full hairline border-brand-border hover:border-brand-charcoal text-brand-charcoal transition-colors">
+          <span class="material-symbols-outlined text-[20px]" style="font-variation-settings:'wght' 300">chevron_left</span>
+        </button>
+        <div class="flex-1 overflow-hidden">
           <div id="testimonial-track" class="flex transition-transform duration-500 ease-in-out">
 
             <!-- Testimonial 1 -->
@@ -479,12 +482,9 @@
           </div>
         </div>
 
-        <!-- Prev / Next arrows -->
-        <button id="t-prev" aria-label="Previous review" class="absolute left-[-36px] top-1/2 -translate-y-1/2 text-brand-border hover:text-brand-charcoal transition-colors hidden sm:block">
-          <span class="material-symbols-outlined text-[28px]" style="font-variation-settings:'wght' 200">chevron_left</span>
-        </button>
-        <button id="t-next" aria-label="Next review" class="absolute right-[-36px] top-1/2 -translate-y-1/2 text-brand-border hover:text-brand-charcoal transition-colors hidden sm:block">
-          <span class="material-symbols-outlined text-[28px]" style="font-variation-settings:'wght' 200">chevron_right</span>
+        </div>
+        <button id="t-next" aria-label="Next review" class="flex-shrink-0 w-9 h-9 flex items-center justify-center rounded-full hairline border-brand-border hover:border-brand-charcoal text-brand-charcoal transition-colors">
+          <span class="material-symbols-outlined text-[20px]" style="font-variation-settings:'wght' 300">chevron_right</span>
         </button>
       </div>
 
